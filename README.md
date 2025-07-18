@@ -19,8 +19,8 @@ Put these packages in the src folder of a ROS workspace. Paste my project at '~\
 ## Demo
 
 <div style="text-align:center">
-  <img src="https://github.com/PMY9527/QUAD-MPC-SIM-HW/blob/main/TrimmedMPCHW480.gif" alt="Trimmed MPC Hardware Demo" width="500" height="300" style="display:inline-block">
-  <img src="https://github.com/PMY9527/QUAD-MPC-SIM-HW/blob/main/StairsDEMO.gif" alt="Stair Climbing Demonstration" width="500" height="300" style="display:inline-block">
+  <img src="https://github.com/PMY9527/QUAD-MPC-SIM-HW/blob/main/TrimmedMPCHW480.gif" alt="Trimmed MPC Hardware Demo" width="750" height="500" style="display:inline-block">
+  <img src="https://github.com/PMY9527/QUAD-MPC-SIM-HW/blob/main/StairsDEMO.gif" alt="Stair Climbing Demonstration" width="750" height="500" style="display:inline-block">
 </div>
 
 A slightly longer video demo can be viewed at:  
