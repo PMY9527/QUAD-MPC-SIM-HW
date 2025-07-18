@@ -94,7 +94,8 @@ Here I am showing an example of running on my Go1 Air.
 3. Repeat steps 5, 6 and 7, just like in simulation.
 
 After starting the controller, press '2' key on the keyboard to switch the robot's finite state machine (FSM) from Passive (initial state) to FixedStand, then press '6' to switch the FSM from FixedStand to MPC, now you can press the 'w' 'a' 's' 'd' key to control the translation of the robot, and press the 'j' 'l' key to control the rotation of the robot. Press the Spacebar, the robot will stop and stand on the ground. (If there is no response, you need to click on the terminal opened for starting the controller and then repeat the previous operation)
-
+## Note
+Somehow the previous git history vanished. Hence kindly let me know if there's any bugs.
 ## Credits
 
 A big thank you to [Unitree](https://github.com/unitreerobotics) and [Linzhuyue](https://github.com/linzhuyue) for their wonderful open-sourced projects!
