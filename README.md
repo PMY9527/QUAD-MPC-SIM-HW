@@ -23,9 +23,8 @@ To run the controller in Gazebo and Hardware, you will need the following:
 Put these packages in the src folder of a ROS workspace. Paste my project at `~/NAME_OF_YOUR_PROJECT/src/unitree_guide/unitree_guide` and replace what's replicated.
 
 ## Demo
-
-<div style="text-align:center">
-  <img src="https://raw.githubusercontent.com/PMY9527/QUAD-MPC-SIM-HW/main/TrimmedMPCHW480.gif" alt="Trimmed MPC Hardware Demo" width="500" style="display:inline-block">
+<div align="center">
+  <img src="https://raw.githubusercontent.com/PMY9527/QUAD-MPC-SIM-HW/main/TrimmedMPCHW480.gif" alt="Trimmed MPC Hardware Demo" width="500">
 </div>
 
 A slightly longer video demo can be viewed at:  
