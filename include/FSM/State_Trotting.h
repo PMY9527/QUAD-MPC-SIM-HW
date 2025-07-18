@@ -10,6 +10,7 @@
 #include <chrono>
 #include <vector>
 #include <iostream>
+#include <ros/ros.h>
 
 class State_Trotting : public FSMState{
 public:

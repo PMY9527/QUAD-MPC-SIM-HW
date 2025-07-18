@@ -1,6 +1,6 @@
 <launch>
-    <arg name="wname" default="earth"/>
-    <arg name="rname" default="a1"/>
+    <arg name="wname" default="stairs_new"/>
+    <arg name="rname" default="go1"/>
     <arg name="robot_path" value="(find $(arg rname)_description)"/>
     <arg name="dollar" value="$"/>
 

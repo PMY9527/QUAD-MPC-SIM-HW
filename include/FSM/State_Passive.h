@@ -5,6 +5,8 @@
 #define PASSIVE_H
 
 #include "FSMState.h"
+#include <ros/ros.h>
+
 
 class State_Passive : public FSMState{
 public:

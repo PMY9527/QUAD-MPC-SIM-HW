@@ -5,7 +5,7 @@
 #define IOSDK_H
 
 #include "interface/IOInterface.h"
-#include "unitree_legged_sdk/unitree_legged_sdk.h"
+#include <fdsc_utils/free_dog_sdk_h.hpp>
 
 #ifdef COMPILE_WITH_MOVE_BASE
     #include <ros/ros.h>

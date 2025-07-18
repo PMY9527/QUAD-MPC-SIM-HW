@@ -13,6 +13,8 @@
 
 #ifdef COMPILE_WITH_REAL_ROBOT
 #include "interface/IOSDK.h"
+#include "interface/IOFREE.h"
+#include "interface/KeyBoard.h"
 #endif // COMPILE_WITH_REAL_ROBOT
 
 #ifdef COMPILE_WITH_ROS
@@ -60,7 +62,9 @@ int main(int argc, char **argv)
 #endif // COMPILE_WITH_SIMULATION
 
 #ifdef COMPILE_WITH_REAL_ROBOT
-    ioInter = new IOSDK();
+    ioInter = new IOFREE(); 
+    //ioInter = new IOFREE();
+    //ioInter = new IOSDK();
     ctrlPlat = CtrlPlatform::REALROBOT;
 #endif // COMPILE_WITH_REAL_ROBOT
 

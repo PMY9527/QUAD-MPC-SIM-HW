@@ -81,6 +81,7 @@ void State_Trotting::run()
 {
     _posBody = _est->getPosition();
     _velBody = _est->getVelocity();
+    ROS_INFO("v:%.2f",_velBody(0));
     _posFeet2BGlobal = _est->getPosFeet2BGlobal();
     _posFeetGlobal = _est->getFeetPos();
     _velFeetGlobal = _est->getFeetVel();
@@ -132,7 +133,8 @@ void State_Trotting::setHighCmd(double vx, double vy, double wz)
 void State_Trotting::getUserCmd()
 {
     /* Movement */
-    _vCmdBody(0) = invNormalize(_userValue.ly, _vxLim(0), _vxLim(1));
+    _vCmdBody(0) = invNormalize(_userValue.ly, -2.0,2.0);
+    //_vCmdBody(0) = invNormalize(_userValue.ly, _vxLim(0), _vxLim(1));
     _vCmdBody(1) = -invNormalize(_userValue.lx, _vyLim(0), _vyLim(1));
     _vCmdBody(2) = 0;
 
@@ -152,7 +154,7 @@ void State_Trotting::calcCmd()
 
     _pcd(0) = saturation(_pcd(0) + _vCmdGlobal(0) * _ctrlComp->dt, Vec2(_posBody(0) - 0.05, _posBody(0) + 0.05));
     _pcd(1) = saturation(_pcd(1) + _vCmdGlobal(1) * _ctrlComp->dt, Vec2(_posBody(1) - 0.05, _posBody(1) + 0.05));
-    _pcd(2) = 0.370;
+    
     _vCmdGlobal(2) = 0;
 
     /* Turning */
@@ -181,8 +183,9 @@ void State_Trotting::calcTau()
 
     _forceFeetGlobal = -_balCtrl->calF(_ddPcd, _dWbd, _B2G_RotMat, _posFeet2BGlobal, *_contact);
 
+    //std::cout << "current_euler" << current_euler << std::endl;
     //std::cout << "********forceFeetGlobal(QP)********" << std::endl
-            //<< _forceFeetGlobal << std::endl;
+      //  << _forceFeetGlobal << std::endl;
             
     for (int i(0); i < 4; ++i)
     {

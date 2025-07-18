@@ -4,7 +4,7 @@
 #include <iostream>
 #include "FSM/State_FixedStand.h"
 
-State_FixedStand::State_FixedStand(CtrlComponents *ctrlComp)
+State_FixedStand::State_FixedStand(CtrlComponents *ctrlComp) 
     : FSMState(ctrlComp, FSMStateName::FIXEDSTAND, "fixed stand") {}
 
 void State_FixedStand::enter()
