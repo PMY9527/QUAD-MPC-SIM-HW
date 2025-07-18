@@ -2,8 +2,8 @@
 A (Sim + Hardware Tested) Model Predictive Controller for Unitree quadruped robots based on the FSM framework from [unitree_guide](https://github.com/unitreerobotics/unitree_guide/tree/main/unitree_guide), using Quadprog++ as the solver. 
 
 ## Tested models
-Simulation: Unitree A1, Unitree Go1.
-Hardware: Unitree Go1 Air. 
+-Simulation: Unitree A1, Unitree Go1.
+-Hardware: Unitree Go1 Air. 
 
 ## Environment
 The develop environment is ROS Noetic and Ubuntu 20.04 but it should run just fine in ROS Melodic and Ubuntu 18.04.
@@ -18,8 +18,10 @@ Put these packages in the src folder of a ROS workspace. Paste my project at '~\
 
 ## Demo
 
-![Trimmed MPC Hardware Demo](https://github.com/PMY9527/QUAD-MPC-SIM-HW/blob/main/TrimmedMPCHW480.gif){: width="400" height="225"} 
-![Stair Climbing Demonstration](https://github.com/PMY9527/QUAD-MPC-SIM-HW/blob/main/StairsDEMO.gif){: width="400" height="225"}
+<div style="text-align:center">
+  <img src="https://github.com/PMY9527/QUAD-MPC-SIM-HW/blob/main/TrimmedMPCHW480.gif" alt="Trimmed MPC Hardware Demo" width="400" height="225" style="display:inline-block">
+  <img src="https://github.com/PMY9527/QUAD-MPC-SIM-HW/blob/main/StairsDEMO.gif" alt="Stair Climbing Demonstration" width="400" height="225" style="display:inline-block">
+</div>
 
 A slightly longer video demo can be viewed at:  
 [Youtube](https://www.youtube.com/watch?v=5x-IyCu0Nwc) or [BiliBili](https://www.bilibili.com/video/BV1YbuUzcEFp/?spm_id_from=333.1387.homepage.video_card.click&vd_source=926e11951d42d46224e97d067793de52)
