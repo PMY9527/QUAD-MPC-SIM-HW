@@ -21,7 +21,9 @@ Put these packages in the src folder of a ROS workspace. Paste my project at '~\
 ![Trimmed MPC Hardware Demo](https://github.com/PMY9527/QUAD-MPC-SIM-HW/blob/main/TrimmedMPCHW480.gif) 
 ![Stair Climbing Demonstration](https://github.com/PMY9527/QUAD-MPC-SIM-HW/blob/main/StairsDEMO.gif)  
 
-A slightly longer video demo can be viewed (Youtube)[https://www.youtube.com/watch?v=5x-IyCu0Nwc] or (BiliBili)[https://www.bilibili.com/video/BV1YbuUzcEFp/?spm_id_from=333.1387.homepage.video_card.click&vd_source=926e11951d42d46224e97d067793de52]
+A slightly longer video demo can be viewed at:  
+[Youtube](https://www.youtube.com/watch?v=5x-IyCu0Nwc)  
+[BiliBili](https://www.bilibili.com/video/BV1YbuUzcEFp/?spm_id_from=333.1387.homepage.video_card.click&vd_source=926e11951d42d46224e97d067793de52)
 
 ## To Run
 [IMPORTANT] You'll need to modify the CMakelist.txt under uniree_guide to switch between simulation and hardware. 
