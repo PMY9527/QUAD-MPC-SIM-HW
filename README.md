@@ -10,10 +10,10 @@ The develop environment is ROS Noetic and Ubuntu 20.04 but it should run just fi
 
 ## Dependencies
 To run the controller in Gazebo and Hareware, You will need the following:
-1.[unitree_guide](https://github.com/unitreerobotics/unitree_guide/tree/main/unitree_guide);
-2.[unitree_ros](https://github.com/unitreerobotics/unitree_ros);
-3.[unitree_legged_msgs](https://github.com/unitreerobotics/unitree_ros_to_real)(Note that: unitree_legged_real package should not be a part of dependencies);
-4.[free_dog_sdk_cpp](https://github.com/linzhuyue/free_dog_sdk_cpp).
+-1.[unitree_guide](https://github.com/unitreerobotics/unitree_guide/tree/main/unitree_guide);
+-2.[unitree_ros](https://github.com/unitreerobotics/unitree_ros);
+-3.[unitree_legged_msgs](https://github.com/unitreerobotics/unitree_ros_to_real)(Note: unitree_legged_real package should not be a part of dependencies);
+-4.[free_dog_sdk_cpp](https://github.com/linzhuyue/free_dog_sdk_cpp).
 Put these packages in the src folder of a ROS workspace. Paste my project at '~\NAME_OF_YOUR_PROJECT\src\unitree_guide\unitree_guide' and replace whats replicated.
 
 ## Demo
