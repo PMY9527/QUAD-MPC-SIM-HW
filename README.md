@@ -83,7 +83,7 @@ Here I am showing an example of running on my Go1 Air.
    ping 192.168.123.161
    ```
 
-2. Do the following on your Remote Controller, for the robot to enter low-level mode:
+2. Do the following on your Remote Controller, which shall make the robot enter low-level ctrl mode:
    ```
    L2 + A
    L2 + A
