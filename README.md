@@ -1,6 +1,6 @@
 # Overview
 
-A (Sim + Hardware Tested) Model Predictive Controller for Unitree quadruped robots based on the FSM framework from [unitree_guide](https://github.com/unitreerobotics/unitree_guide/tree/main/unitree_guide), using Quadprog++ as the solver.
+A (Sim💻 + Hardware⚙️ Tested) Model Predictive Controller for Unitree quadruped robots based on the FSM framework from [unitree_guide](https://github.com/unitreerobotics/unitree_guide/tree/main/unitree_guide), using Quadprog++ as the solver.
 
 ## Tested Models
 
