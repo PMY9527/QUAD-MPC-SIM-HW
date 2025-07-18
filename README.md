@@ -97,4 +97,4 @@ After starting the controller, press '2' key on the keyboard to switch the robot
 
 ## Credits
 
-A big thank you to [Unitree](https://github.com/unitreerobotics) and [Linzhuyue](https://github.com/linzhuyue) for their open-sourced projects!
+A big thank you to [Unitree](https://github.com/unitreerobotics) and [Linzhuyue](https://github.com/linzhuyue) for their wonderful open-sourced projects!
