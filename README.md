@@ -10,13 +10,18 @@ The develop environment is ROS Noetic and Ubuntu 20.04 but it should run just fi
 
 ## Dependencies
 To run the controller in Gazebo and Hareware, You will need the following:
--1.[unitree_guide](https://github.com/unitreerobotics/unitree_guide/tree/main/unitree_guide);
--2.[unitree_ros](https://github.com/unitreerobotics/unitree_ros);
--3.[unitree_legged_msgs](https://github.com/unitreerobotics/unitree_ros_to_real)(Note: unitree_legged_real package should not be a part of dependencies);
--4.[free_dog_sdk_cpp](https://github.com/linzhuyue/free_dog_sdk_cpp).
+-[unitree_guide](https://github.com/unitreerobotics/unitree_guide/tree/main/unitree_guide);
+-[unitree_ros](https://github.com/unitreerobotics/unitree_ros);
+-[unitree_legged_msgs](https://github.com/unitreerobotics/unitree_ros_to_real)(Note: unitree_legged_real package should not be a part of dependencies);
+-[free_dog_sdk_cpp](https://github.com/linzhuyue/free_dog_sdk_cpp).
 Put these packages in the src folder of a ROS workspace. Paste my project at '~\NAME_OF_YOUR_PROJECT\src\unitree_guide\unitree_guide' and replace whats replicated.
 
 ## Demo
+
+![Trimmed MPC Hardware Demo](https://github.com/PMY9527/QUAD-MPC-SIM-HW/blob/main/TrimmedMPCHW480.gif) 
+![Stair Climbing Demonstration](https://github.com/PMY9527/QUAD-MPC-SIM-HW/blob/main/StairsDEMO.gif)  
+
+A slightly longer video demo can be viewed (Youtube)[https://www.youtube.com/watch?v=5x-IyCu0Nwc] or (BiliBili)[https://www.bilibili.com/video/BV1YbuUzcEFp/?spm_id_from=333.1387.homepage.video_card.click&vd_source=926e11951d42d46224e97d067793de52]
 
 ## To Run
 [IMPORTANT] You'll need to modify the CMakelist.txt under uniree_guide to switch between simulation and hardware. 
