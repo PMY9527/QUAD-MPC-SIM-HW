@@ -15,10 +15,10 @@ The develop environment is ROS Noetic and Ubuntu 20.04 but it should run just fi
 
 To run the controller in Gazebo and Hardware, you will need the following:
 
-- [unitree_guide](https://github.com/unitreerobotics/unitree_guide/tree/main/unitree_guide)
-- [unitree_ros](https://github.com/unitreerobotics/unitree_ros)
-- [unitree_legged_msgs](https://github.com/unitreerobotics/unitree_ros_to_real) (Note: unitree_legged_real package should not be a part of dependencies)
-- [free_dog_sdk_cpp](https://github.com/linzhuyue/free_dog_sdk_cpp)
+- The base FSM framework: [unitree_guide](https://github.com/unitreerobotics/unitree_guide/tree/main/unitree_guide)
+- The ROS simulation packages for Unitree robots: [unitree_ros](https://github.com/unitreerobotics/unitree_ros)
+- The Messages package: [unitree_legged_msgs](https://github.com/unitreerobotics/unitree_ros_to_real) (Note: unitree_legged_real package should not be a part of dependencies)
+- The package for low-lvl-controlling non-edu models: [free_dog_sdk_cpp](https://github.com/linzhuyue/free_dog_sdk_cpp)
 
 Put these packages in the src folder of a ROS workspace. Paste my project at `~/NAME_OF_YOUR_PROJECT/src/unitree_guide/unitree_guide` and replace what's replicated.
 
@@ -73,9 +73,9 @@ Put these packages in the src folder of a ROS workspace. Paste my project at `~/
 
 ### Hardware
 
-Here I am showing an example of running on my Go1 Air.
+Here I am showing an example of running this project on my Go1 Air using a network cable:
 
-1. Connect to robot via a network cable, and make sure the following pings correctly:
+1. Connect to robot via a network cable, and make sure the following steps can correctly ping the robot:
    ```bash
    sudo ifconfig eth0 down # eth0 is your PC Ethernet port
    sudo ifconfig eth0 192.168.123.162/24
@@ -98,4 +98,4 @@ After starting the controller, press '2' key on the keyboard to switch the robot
 Somehow the previous git history vanished. Hence kindly let me know if there's any bugs.
 ## Credits
 
-A big thank you to [Unitree](https://github.com/unitreerobotics) and [Linzhuyue](https://github.com/linzhuyue) for their wonderful open-sourced projects!
+A big thank you to [Unitree](https://github.com/unitreerobotics) and [Linzhuyue](https://github.com/linzhuyue) for their wonderful open-sourced projects! 
