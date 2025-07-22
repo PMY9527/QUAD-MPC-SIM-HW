@@ -24,10 +24,6 @@ Put these packages in the src folder of a ROS workspace. Paste my project at `~/
 
 ## Demo
 
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/PMY9527/QUAD-MPC-SIM-HW/blob/main/StairsDEMO.gif" alt="SIMDEMO" width="500">
-</div>
 <div align="center">
   <img src="https://raw.githubusercontent.com/PMY9527/QUAD-MPC-SIM-HW/main/TrimmedMPCHW480.gif" alt="Trimmed MPC Hardware Demo" width="500">
 </div>
