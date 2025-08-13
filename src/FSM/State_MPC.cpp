@@ -301,8 +301,7 @@ void State_MPC::SetMatrices() // Setting up Hessian, G and Gradient, g0.
     R_curz = Rz3(_yaw);
     Ac.block<3, 3>(0, 6) = R_curz.transpose();
     Ac.block<3, 3>(3, 9) = I3;
-    Ac(11, nu) = 1;
-    Ac(12, nu) = 1; 
+    Ac(11, nu) = 1; 
 
     // Bc
     Mat3 Ic_W_inv;
